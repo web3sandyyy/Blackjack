@@ -1,0 +1,56 @@
+body{
+    background-image: url("bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-color: #950101;
+    font-family: 'Almarai', sans-serif;
+    color: white;
+}
+#blackjack{
+    padding: 10px;
+    margin:auto;
+    font-family: 'Rye', cursive;
+    text-shadow:10px 2px 5px black;
+    font-size: 7vh;
+    letter-spacing: 8px;
+    display:inline;
+}
+#ngame,#ncard{
+    color:red;
+    font-size: 2vh;
+    background: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 1vh;
+    box-shadow: 0 2px 4px darkslategray;
+}
+#message-el{
+    font-size: 4vh;
+}
+#cards-el{
+    font-size: 3vh;
+}
+#sum-el, #cards-el{
+    font-size: 3vh;
+}
+#guidelines{
+    position:absolute;
+    right:0;
+    color:white;
+    background-color: transparent;
+    font-size: 2vh;
+    height: 40px;
+    width:40px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 1vh
+}
+#forGuidelines{
+    position: relative;
+}
